@@ -18,6 +18,14 @@ int main() {
 
     // --- TU CÓDIGO AQUÍ ---
     // Usa 'p' para recorrer 'bin' y contar los '1's
+    while (*p != '\0') {
+        if (*p == '1'){
+            unos++;
+        }
+        
+        
+        p++;
+    }
 
     printf("Total de bits '1': %d\n", unos);
     return 0;
@@ -26,3 +34,6 @@ int main() {
 // PREGUNTA: En la función enteroABinario, estamos pasando un int (4 bytes) y un apuntador char *. 
 // Si un int ya vive en la memoria como una secuencia de bits, 
 // ¿por qué es necesario 'convertirlo' a una cadena de caracteres para contarlos con el apuntador?
+// Respuesta:
+//Un dato tipo int ya vive en la memoria con la secuncia de bits, sim embargo estos bits se guardan en formato binario del programa o interno,
+//Lo convertimos a caracteres para que sea facil de rastrear con el apuntador en este caso los unos, ya que es más facil viendolos solo como caracteres.
