@@ -36,4 +36,4 @@ int main() {
 // ¿por qué es necesario 'convertirlo' a una cadena de caracteres para contarlos con el apuntador?
 // Respuesta:
 //Un dato tipo int ya vive en la memoria con la secuncia de bits, sim embargo estos bits se guardan en formato binario del programa o interno,
-//Lo combertimos a caracteres para que sea facil de rastrear con el apuntador en este caso los unos, ya que es más facil viendolos solo como caracteres.
+//Lo convertimos a caracteres para que sea facil de rastrear con el apuntador en este caso los unos, ya que es más facil viendolos solo como caracteres.
