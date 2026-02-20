@@ -19,6 +19,9 @@ int main() {
     // --- TU CÓDIGO AQUÍ ---
     // Usa 'p' para recorrer 'bin' y contar los '1's
     while (*p != '\0') {
+        if (*p == '1'){
+            unos++;
+        }
         
         
         p++;
