@@ -70,4 +70,4 @@ int main() {
 /* La operación max2-max1 devolverá el valor 2. Esto se debe a que la resta de apuntadores 
 no se expresa en bytes, sino en el número de elementos del tipo al que apuntan. 
 Aunque la diferencia entre las direcciones sea de 8 bytes, como cada entero (int)
-ocupa 4 bytes, la distacia equivale a 2 enteros.*/
+ocupa 4 bytes, la distancia equivale a 2 enteros.*/
